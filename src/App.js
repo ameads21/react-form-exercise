@@ -1,11 +1,11 @@
 import "./App.css";
 import TodoList from "./Todo/TodoList";
-// import BoxList from "./Box Maker/BoxList";
+import BoxList from "./Box Maker/BoxList";
 
 function App() {
   return (
     <div className="App">
-      {/* <BoxList /> */}
+      <BoxList />
       <TodoList />
     </div>
   );
